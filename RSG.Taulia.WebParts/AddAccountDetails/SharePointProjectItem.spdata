@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="AddAccountDetailsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AddAccountDetails\" Type="ElementManifest" />
+    <ProjectItemFile Source="AddAccountDetails.webpart" Target="AddAccountDetails\" Type="ElementFile" />
+    <ProjectItemFile Source="AddAccountDetailsUserControl.ascx" Target="CONTROLTEMPLATES\RSG.Taulia.WebParts\AddAccountDetails\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="RSG.Taulia.WebParts.AddAccountDetails" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
