@@ -10,5 +10,10 @@ namespace RSG.Taulia.WebParts.AddAccountDetails
         protected void Page_Load(object sender, EventArgs e)
         {
         }
+
+        private string AddAccount()
+        {
+            return "";
+        }
     }
 }
